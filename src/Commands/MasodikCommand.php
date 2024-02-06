@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Alex\Masodik\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MasodikCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'masodik';
 
     public $description = 'My command';
 
