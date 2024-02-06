@@ -19,7 +19,7 @@ class MasodikServiceProvider extends PackageServiceProvider
             ->name('masodik')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_masodik_table')
+           // ->hasMigration('create_masodik_table')
             ->hasCommand(MasodikCommand::class);
     }
 }

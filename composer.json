@@ -69,10 +69,7 @@
         "laravel": {
             "providers": [
                 "Alex\\Masodik\\MasodikServiceProvider"
-            ],
-            "aliases": {
-                "Masodik": "Alex\\Masodik\\Facades\\Masodik"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
